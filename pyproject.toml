@@ -1,9 +1,10 @@
 [tool.poetry]
-name = "giza-contracts"
+name = "felucca-package-example"
 version = "0.1.0"
 description = ""
 authors = ["franalgaba <f.algaba@outlook.es>"]
 keywords = ["felucca"]
+packages = [ { include = "contracts" } ]
 include = ["contracts/*.cairo", "contracts/*/*.cairo"]
 
 [tool.poetry.dependencies]
