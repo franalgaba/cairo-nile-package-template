@@ -4,16 +4,18 @@ version = "0.1.0"
 description = ""
 authors = ["franalgaba <f.algaba@outlook.es>"]
 keywords = ["felucca"]
-packages = [ { include = "contracts" } ]
-include = ["contracts/*.cairo", "contracts/*/*.cairo"]
+packages = [
+    { include = "felucca-package-example" }
+]
+include = ["felucca-package-example/*.cairo", "felucca-package-example/*/*.cairo"]
 
 [tool.poetry.dependencies]
-python = ">=3.7.2,<3.10"
-"starknet.py" = "^0.1.8-alpha.0"
+python = ">=3.7.11,<3.10"
 ecdsa = "^0.17.0"
 fastecdsa = "^2.2.3"
 sympy = "^1.10"
 cairo-nile = "^0.4.0"
+felucca = "^0.0.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0.1"
