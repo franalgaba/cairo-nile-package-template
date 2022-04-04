@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "felucca-package-example"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["franalgaba <f.algaba@outlook.es>"]
 keywords = ["felucca"]
